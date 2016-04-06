@@ -16,6 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://levlup.co" # the base hostname & protocol for your site
 twitter_username: LevlUpCo
 github_username:  levlup
+logo: /assets/levlup.png
 
 # Build settings
 markdown: kramdown
