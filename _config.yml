@@ -19,3 +19,5 @@ github_username:  levlup
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
