@@ -173,9 +173,8 @@
 }
 
 div.page-content {
-	background-color: #2f99bb;
-	opacity: 0.4;
-	filter: alpha(opacity=40); /* For IE8 and earlier */
+	background-color: rgba(47, 153, 187, 0.4);
+
 }
 
 .page-heading {
