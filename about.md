@@ -10,7 +10,7 @@ avatar: /assets/avatar.png
 
   <img src="{{ page.avatar }}" height="250px"/>
 
-LevlUp offers Infrastructure consulting and Development. LevlUp your business today!
+<p>LevlUp offers Infrastructure consulting and Development. LevlUp your business today!</p>
 
 </div>
 
