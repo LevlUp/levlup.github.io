@@ -4,7 +4,6 @@ title: Ticket Submission
 permalink: /ticket/
 ---
 
-<div class="ticket">
 
 <!-- BEGIN Podio web form -->
 <script src="https://podio.com/webforms/15445485/1035700.js"></script>
@@ -18,8 +17,5 @@ permalink: /ticket/
   A webform by <a href="https://company.podio.com/collaboration-software" class="podio-webform-inner">Podio</a>
   </div>
 <!-- END Podio web form -->
-
-
-</div>
 
 
