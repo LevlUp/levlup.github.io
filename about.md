@@ -8,7 +8,7 @@ avatar: /assets/avatar.png
 <div class="about">
 
 
-  <img src="{{ page.avatar }}" height="250"/>
+  <img src="{{ page.avatar }}" height="250px"/>
 
 LevlUp offers Infrastructure consulting and Development. LevlUp your business today!
 
