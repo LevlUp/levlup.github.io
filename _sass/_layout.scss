@@ -170,6 +170,8 @@
 .page-content {
     padding: $spacing-unit 0;
 	background-color: #2f99bb;
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 .page-heading {
