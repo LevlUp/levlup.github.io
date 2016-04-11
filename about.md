@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 avatar: /assets/avatar.png
 imacback: /assets/iMacBack.png
+custom_css: about
 ---
 
 <div class="about">
