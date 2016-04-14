@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Nedgo.io
 permalink: /nedgo/
 avatar: /assets/avatar.png
 imacback: /assets/iMacBack.png
