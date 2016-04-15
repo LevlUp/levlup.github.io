@@ -17,18 +17,6 @@ div.page-content {
 
 .speech-bubble p {font-size:28px; line-height:1.25em;}
 
-/* this isn't necessary, just saves me having to edit the HTML of the demo */
-.speech-bubble:before {
-  content:url(twitter-logo.gif);
-  position:absolute;
-  top:-60px;
-  left:0;
-  width:155px;
-  height:36px;
-  /* reduce the damage in FF3.0 */
-  display:block;
-}
-
 /* creates the triangle */
 .speech-bubble:after {
   content:"";
