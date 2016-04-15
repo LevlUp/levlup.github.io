@@ -17,6 +17,12 @@ div.page-content {
 
 }
 
+@media (min-width: 1650px) {
+	div.page-content {
+		
+		background-size: 100% auto;
+	}
+}
 
 .speech-bubble {
   position:relative;
