@@ -8,8 +8,8 @@
 div.page-content {
 	background:
 		linear-gradient(
-	      rgba(150, 203, 220, 0.5), 
-	      rgba(150, 203, 220, 0.5)
+	      rgba(150, 203, 220, 0.6), 
+	      rgba(150, 203, 220, 0.6)
 	    ),
 		 url("/assets/desk.JPG")
 		 no-repeat fixed center;
