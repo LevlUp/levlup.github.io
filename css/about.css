@@ -1,8 +1,10 @@
 div.page-content {
-	background-image: url("/assets/desk.JPG");
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-position: center; 
+	background:
+		linear-gradient(
+	      rgba(255, 0, 0, 0.45), 
+	      rgba(255, 0, 0, 0.45)
+	    ),
+		 url("/assets/desk.JPG");
 
 }
 
