@@ -5,8 +5,8 @@ div.page-content {
 	      rgba(150, 203, 220, 0.5)
 	    ),
 		 url("/assets/desk.JPG")
-		 100%
 		 no-repeat fixed center;
+		 background-size: 100% auto;
 
 }
 
