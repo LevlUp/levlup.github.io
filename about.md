@@ -9,11 +9,11 @@ custom_css: about
 
 <div class="about">
 
-
-  <img src="{{ page.avatar }}" height="250px"/>
   <blockquote class="speech-bubble">
 	  <p>"Hi, My Name is Mitch"</p>
   </blockquote>
+  <img src="{{ page.avatar }}" height="250px"/>
+ 
 <hr>
   <img class="imac" src="{{ page.imacback }}" height="250px"/>
 
