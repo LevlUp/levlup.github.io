@@ -46,7 +46,7 @@ div.page-content {
     content: "";
     position: absolute;
     bottom: -15px;
-    left: 25px;
+    left: 100px;
     border-width: 15px 15px 0;
     border-style: solid;
     border-color: #eee transparent;
