@@ -17,7 +17,6 @@ custom_css: about
 <hr>
   <img class="imac" src="{{ page.imacback }}" height="250px"/>
 
-<h3>LevlUp offers Infrastructure consulting and Development. LevlUp your business today!</h3>
 
 </div>
 
