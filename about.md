@@ -11,6 +11,9 @@ custom_css: about
 
 
   <img src="{{ page.avatar }}" height="250px"/>
+  <blockquote class="speech-bubble">
+	  <p>"Hi, My Name is Mitch"</p>
+  </blockquote>
 <hr>
   <img class="imac" src="{{ page.imacback }}" height="250px"/>
 
