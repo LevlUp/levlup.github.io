@@ -19,6 +19,7 @@ div.page-content {
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
   border-radius:10px;
+  width: 250 px;
 }
 
 .speech-bubble p {font-size:28px; line-height:1.25em;}
