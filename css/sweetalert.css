@@ -1081,6 +1081,10 @@ body.stop-scrolling {
 		body, nav {
 			width: 100vw;
 		}
+		.modal-content {
+			width: 100vw;
+		}
+		
 	
 	}
 
