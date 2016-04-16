@@ -44,7 +44,7 @@ hr.levlup-about:after{
     top: -0.8em;
     font-size: 2em;
     padding: 0 0.25em;
-    background-color: #18bc9c;
+    background-color: #FFA03D;
     color: white;
 }
 
@@ -103,5 +103,10 @@ img.imac {
 header {
     text-align: center;
     background: #81C8E0;
+    color: white;
+}
+
+section.success {
+    background: #FFA03D;
     color: white;
 }
