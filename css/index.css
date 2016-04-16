@@ -112,6 +112,14 @@ img.snes {
 	margin-top:-100px;
 }
 
+hr.desk:after{
+    content: url(/img/desk.png);
+    display: inline-block;
+    position: relative;
+    top: 0em;
+    padding: 0 0;
+}
+
 #about .row {
 	text-align: center;
 	
