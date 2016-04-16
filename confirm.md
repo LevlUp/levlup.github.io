@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 custom_css: confirm
 ---
 <div class="confrim">
