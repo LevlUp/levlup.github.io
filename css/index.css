@@ -148,6 +148,9 @@ hr.desk:after{
 	body, nav {
 		width: 100vw;
 	}
+	#intercom-container .intercom-launcher-button {
+		left:100vw;
+	}
 }
 
 #about .row {
