@@ -12,3 +12,4 @@ swal({
   function(){
     window.location.href = '';
 });
+});
