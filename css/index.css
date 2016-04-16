@@ -142,6 +142,9 @@ hr.desk:after{
 	img.iphone {
 		display: none;
 	}
+	img.ezbutton {
+		margin-right: -55px;
+	}
 	}
 
 #about .row {
