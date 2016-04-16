@@ -6,25 +6,23 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: LevlUp
-email: mitch@levlup.co
+title: Start Bootstrap
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  LevlUp offers Infrastructure consulting and Development. LevlUp your business today!
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://levlup.co" # the base hostname & protocol for your site
+  Web Developer - Graphic Artist - User Experience Designer
+baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-twitter_link: https://twitter.com/LevlUpCo
-github_link:  https://github.com/LevlUp
-facebook_link: 
-linkedin_link: https://www.linkedin.com/in/mitchell-ogden-26475060
-dribble_link: 
+twitter_username: SBootstrap
+github_username:  BlackrockDigital
+facebook_username: StartBootstrap
 
 # Address information
-address_street: 3251 Nina Rd
-address_city: Gaylord
-address_state: MI
-address_zip: 49735
+address_street: 3034 Melrose Place
+address_city: Beverly Hills
+address_state: CA
+address_zip: 90201
 
 # Build settings
 markdown: kramdown
