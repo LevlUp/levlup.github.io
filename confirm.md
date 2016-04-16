@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 custom_css: sweetalert
 custom_js: sweetalert
 ---
