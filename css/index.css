@@ -149,7 +149,7 @@ hr.desk:after{
 		width: 100vw;
 	}
 	#intercom-container .intercom-launcher-button {
-		left:100vw;
+		right:0vw;
 	}
 }
 
