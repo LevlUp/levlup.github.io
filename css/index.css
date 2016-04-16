@@ -143,3 +143,6 @@ section.success {
     background: #FFA03D;
     color: white;
 }
+section#contact{
+	z-index:1;
+}
