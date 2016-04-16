@@ -145,7 +145,7 @@ hr.desk:after{
 	img.ezbutton {
 		display: none;
 	}
-	body {
+	body, nav {
 		width: 100vw;
 	}
 }
