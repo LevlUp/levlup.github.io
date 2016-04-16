@@ -53,3 +53,11 @@
             </div>
         </div>
     </section>
+	<script language="javascript">
+	        function autoResizeDiv()
+	        {
+	            document.getElementById('header').style.height = (window.innerHeight - 572) +'px';
+	        }
+	        window.onresize = autoResizeDiv;
+	        autoResizeDiv();
+	</script>
