@@ -9,14 +9,16 @@
 title: LevlUp
 email: mitch@levlup.co
 description: > # this means to ignore newlines until "baseurl:"
-  Web Developer - Graphic Artist - User Experience Designer
+  LevlUp offers Infrastructure consulting and Development. LevlUp your business today!
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://levlup.co" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-twitter_username: levlupco
-github_username:  levlup
-facebook_username: 
+twitter_link: https://twitter.com/LevlUpCo
+github_link:  https://github.com/LevlUp
+facebook_link: 
+linkedin_link: https://www.linkedin.com/in/mitchell-ogden-26475060
+dribble_link: 
 
 # Address information
 address_street: 3251 Nina Rd
