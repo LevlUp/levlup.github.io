@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: confirm
 custom_css: sweetalert
 custom_js: sweetalert
 ---
