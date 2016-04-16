@@ -15,6 +15,6 @@
  * Adding the animation to our element
 */
 .bounce {
-    -webkit-animation-name: bounce 5s;
-    animation-name: bounce 5s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
