@@ -1,3 +1,15 @@
+hr.levlup-header,
+hr.levlup-folio,
+hr.levlup-about,
+hr.levlup-contact {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
 hr.levlup-header:after{
     content: "\f121";
 	font-family: FontAwesome;
