@@ -143,9 +143,9 @@ hr.desk:after{
 		display: none;
 	}
 	img.ezbutton {
-		margin-right: -55px;
+		display: none;
 	}
-	}
+}
 
 #about .row {
 	text-align: center;
