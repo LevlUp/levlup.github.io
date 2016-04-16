@@ -1,9 +1,14 @@
-hr.levlup-symbol:after {
+hr.levlup-primary:after {
     background-color: #18bc9c;
     color: white;
 }
 
-hr.levlup-symbol:after, hr.levlup-symbol:after {
+hr.levlup-light:after {
+    background-color: #white;
+    color: white;
+}
+
+hr.levlup-light:after, hr.levlup-primary:after {
     content: url(/img/levlupsymbol.png);
     display: inline-block;
     position: relative;
