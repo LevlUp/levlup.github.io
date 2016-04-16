@@ -7,3 +7,14 @@ modalID: modalTrucking
 category: Infrastructure Development
 ---
 Handle Complete Day-to-Day Operations of a Trucking Company
+<form action="" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_0bYeSMBVCys5lM37uFp4p5Yn"
+    data-amount="2000"
+    data-name="Podio - Trucking"
+    data-description="Handle Complete Day-to-Day Operations of a Trucking Company"
+    data-image="/128x128.png"
+    data-locale="auto">
+  </script>
+</form>
