@@ -1072,13 +1072,17 @@ body.stop-scrolling {
 			margin: 0 0;
 			overflow: hidden;
 		}
-	img.iphone {
-		display: none;
+		img.iphone {
+			display: none;
+		}
+		img.ezbutton {
+			display: none;
+		}
+		body, nav {
+			width: 100vw;
+		}
+	
 	}
-	img.ezbutton {
-		display: none;
-	}
-}
 
 	#about .row {
 		text-align: center;
