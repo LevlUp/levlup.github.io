@@ -125,7 +125,7 @@ hr.desk:after{
     content: url(/img/desk.png);
     display: block;
     position: center;
-	height: 425px;
+	height: 430px;
 	margin: 0 -800px;
 	overflow: hidden;
 }
