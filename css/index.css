@@ -155,7 +155,12 @@ hr.desk:after{
 header {
     text-align: center;
     background: #81C8E0;
-    color: white;
+    color: white
+	position:fixed;
+	    top:0px;
+	    bottom:0px;
+	    left:0px;
+	    right:0px;
 }
 
 section.success {
