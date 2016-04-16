@@ -16,10 +16,12 @@
     </div>
 </header>
 <script language="javascript">
-        function autoResizeDiv()
+if (screen.width >= 600) {
+		function autoResizeDiv()
         {
             document.getElementById('header').style.height = window.innerHeight +'px';
         }
         window.onresize = autoResizeDiv;
         autoResizeDiv();
+	}
 </script>
