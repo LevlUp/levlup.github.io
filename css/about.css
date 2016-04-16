@@ -17,14 +17,21 @@ div.page-content {
 
 }
 
-@media (min-width: 1250px) {
+
+
+@media (min-width: 1650px) {
 	div.page-content {
 		
 		background-size: 100% auto;
 	}
 }
 
-
+@media (min-width: 1250px) and (max-width: 1650px) {
+	div.page-content {
+		
+		background-size: 120% auto;
+	}
+}
 
 .speech-bubble {
   position:relative;
