@@ -17,3 +17,31 @@ hr.levlup-light:after, hr.levlup-primary:after {
     font-size: 2em;
     padding: 0 0.25em;
 }
+
+.speech-bubble {
+  position:relative;
+  padding:15px;
+  margin:100px 0 0.5em;
+  color:#333;
+  background:#eee;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.speech-bubble p {font-size:24px; line-height:1.25em;}
+
+/* creates the triangle */
+
+.speech-bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    right: 100px;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #eee transparent;
+    display: block;
+    width: 0;
+}
