@@ -1,0 +1,13 @@
+hr.levlup-symbol:after {
+    background-color: #18bc9c;
+    color: white;
+}
+
+hr.levlup-symbol:after, hr.levlup-symbol:after {
+    content: url(/site/img/levlupsymbol.png);
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
