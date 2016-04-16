@@ -100,6 +100,12 @@ img.rubik {
 }
 img.iphone {
 	margin-right: -132px;
+	margin-top:-50px;
+}
+
+img.snes {
+	margin-left: -113px;
+	margin-top:-50px;
 }
 
 #about .row {
