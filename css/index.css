@@ -34,7 +34,7 @@
 	transform: translateX(0px);
 }
 
-nav a {
+nav.cl-effect-1 a {
 	position: relative;
 	display: inline-block;
 	margin: 15px 25px;
@@ -48,7 +48,7 @@ nav a {
 	font-size: 1.35em;
 }
 
-a {
+.cl-effect-1 a {
 	text-decoration: none;
 	
 }
