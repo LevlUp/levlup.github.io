@@ -17,7 +17,7 @@ div.page-content {
 
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1250px or min-height: 1300px) {
 	div.page-content {
 		
 		background-size: 100% auto;
