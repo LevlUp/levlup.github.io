@@ -1058,6 +1058,17 @@ body.stop-scrolling {
 		margin: 0 -1000px;
 		overflow: hidden;
 	}
+	
+	@media only screen and (max-device-width: 480px) {
+		hr.desk:after{
+		    content: url(/img/desk.png);
+		    display: block;
+		    position: center;
+			height: 271px;
+			margin: 0 0;
+			overflow: hidden;
+		}
+		}
 
 	#about .row {
 		text-align: center;
