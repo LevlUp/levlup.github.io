@@ -11,10 +11,10 @@ Handle Complete Day-to-Day Operations of a eCommerce Business
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
     data-key="pk_test_0bYeSMBVCys5lM37uFp4p5Yn"
-    data-amount="2000"
+    data-amount="200000"
     data-name="Podio - eCommerce"
     data-description="Handle Complete Day-to-Day Operations of a eCommerce Business"
-    data-image="/128x128.png"
+    data-image="/img/128x128.png"
     data-locale="auto">
   </script>
 </form>
