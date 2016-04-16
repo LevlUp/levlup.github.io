@@ -1,9 +1,14 @@
 ---
 layout: page
-custom_css: confirm
+custom_css: sweetalert
+custom_js: sweetalert
 ---
-<div class="confrim">
-<i class="fa fa-thumbs-o-up fa-5x"></i>
-
-<h2>I got it. Thanks!</h2>
-</div>
+$(document).ready(function() {
+swal({ 
+  title: "Thanks",
+   text: "I'll get back to you ASAP",
+    imageUrl: "/img/thumbs-up.jpg" 
+  },
+  function(){
+    window.location.href = '';
+});
