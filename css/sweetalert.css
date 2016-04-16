@@ -1085,8 +1085,9 @@ body.stop-scrolling {
 			width: 100vw;
 		}
 		.intercom-launcher-button {
-			left: 90vw;
+			left: 0;
 		}
+		
 	
 	}
 
