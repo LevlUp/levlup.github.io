@@ -10,7 +10,7 @@ Handle Complete Day-to-Day Operations of a Service Company
 <form action="" method="POST">
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="pk_test_0bYeSMBVCys5lM37uFp4p5Yn"
+    data-key="pk_live_eoqffBa4Ls4GxY7Rk6PbwrwJ"
     data-amount="200000"
     data-name="Podio - Service"
     data-description="Handle Complete Day-to-Day Operations of a Service Company"
