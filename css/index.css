@@ -44,7 +44,7 @@ hr.levlup-about:after{
     top: -0.8em;
     font-size: 2em;
     padding: 0 0.25em;
-    background-color: #FFA03D;
+    background-color: ##FFA08F;
     color: white;
 }
 
@@ -137,7 +137,7 @@ header {
 }
 
 section.success {
-    background: #FFA03D;
+    background: ##FFA08F;
     color: white;
 }
 section#contact{
