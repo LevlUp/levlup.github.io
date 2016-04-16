@@ -36,6 +36,20 @@ hr.levlup-about:after{
     color: white;
 }
 
+hr.levlup-contact:after{
+    content: "\f1d7";
+	font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+    background-color: #18bc9c;
+    color: white;
+	background-color: white;
+	color: #2c3e50;
+}
+
 .speech-bubble {
   position:relative;
   padding:15px;
