@@ -45,3 +45,12 @@ hr.levlup-light:after, hr.levlup-primary:after {
     display: block;
     width: 0;
 }
+
+img.imac {
+	margin-top: -100px;
+}
+
+#about .row {
+	text-align: center;
+	
+}
