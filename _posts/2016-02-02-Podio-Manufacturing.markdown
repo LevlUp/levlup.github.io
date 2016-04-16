@@ -2,7 +2,7 @@
 layout: post
 title:  "Podio - Manufacturing"
 date:   2016-04-08 15:08:10 -0500
-img: img/portfolio/Podio - Manufacturing.png
+img: img/packages/Podio - Manufacturing.png
 modalID: modalManufacturing
 category: Infrastructure Development
 ---
