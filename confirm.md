@@ -3,6 +3,7 @@ layout: page
 custom_css: sweetalert
 custom_js: sweetalert
 ---
+<script>
 $(document).ready(function() {
 swal({ 
   title: "Thanks",
@@ -13,3 +14,4 @@ swal({
     window.location.href = '';
 });
 });
+</script>
