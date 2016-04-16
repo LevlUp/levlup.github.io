@@ -122,6 +122,7 @@ hr.desk:after{
     display: block;
     position: center;
 	height: 271px;
+	margin: 0 -1000px;
 	overflow: hidden;
 }
 
