@@ -1,5 +1,5 @@
 <!-- Header -->
-<header>
+<header id="header">
     <div class="container" id="clouds">
         <div class="row">
             <div class="col-lg-12">
@@ -17,3 +17,11 @@
         </div>
     </div>
 </header>
+<script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('header').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+</script>

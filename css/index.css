@@ -156,11 +156,7 @@ header {
     text-align: center;
     background: #81C8E0;
     color: white
-	position:fixed;
-	    top:0px;
-	    bottom:0px;
-	    left:0px;
-	    right:0px;
+
 }
 
 section.success {
@@ -174,7 +170,7 @@ section#contact{
 
 body {
 	/*To hide the horizontal scroller appearing during the animation*/
-	overflow-y: hidden;
+	overflow: hidden;
 }
 
 #clouds{
