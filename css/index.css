@@ -139,6 +139,12 @@ hr.desk:after{
 		margin: 0 0;
 		overflow: hidden;
 	}
+	img.iphone {
+		
+		margin-top:-100px;
+		z-index: 1;
+		overflow: hidden;
+	}
 	}
 
 #about .row {
