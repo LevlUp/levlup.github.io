@@ -92,7 +92,11 @@ hr.levlup-contact:after{
 }
 
 img.imac {
-	margin-top: -100px;
+	margin-top: -75px;
+}
+
+img.rubik {
+	margin-left: -100px;
 }
 
 #about .row {
