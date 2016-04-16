@@ -33,3 +33,8 @@
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 }
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
