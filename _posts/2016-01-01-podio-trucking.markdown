@@ -2,7 +2,7 @@
 layout: post
 title:  "Podio - Trucking"
 date:   2016-01-01 15:08:10 -0500
-img: img/portfolio/Planning Calendar - Driver Ready Locations and Unassigned Loads.png
+img: img/portfolio/Operations - Handles the Entire Dispatch Process
 modalID: modalTrucking
 category: Infrastructure Development
 ---
