@@ -32,7 +32,7 @@
 			document.styleSheets[0].addRule('#about .container',divCss);
 			document.styleSheets[0].insertRule('#about .container {' + divCss + "}",0);
 			offset = $('.desk').offset().top - $('#about').offset().top;
-			var deskOffset = aboutHeight - offset;
+			var deskOffset = vph - offset;
 			var deskHeight = 'height: ' + deskOffset + 'px';
 			document.styleSheets[0].addRule('.desk::after',deskHeight);
 			document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
@@ -49,7 +49,7 @@
 			document.styleSheets[0].addRule('#about .container',divCss);
 			document.styleSheets[0].insertRule('#about .container {' + divCss + "}",0);
 			offset = $('.desk').offset().top - $('#about').offset().top;
-			var deskOffset = aboutHeight - offset;
+			var deskOffset = vph - offset;
 			var deskHeight = 'height: ' + deskOffset + 'px';
 			document.styleSheets[0].addRule('.desk::after',deskHeight);
 			document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
