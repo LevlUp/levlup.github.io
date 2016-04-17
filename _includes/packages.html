@@ -33,11 +33,11 @@
 		    $('#portfolio').css('height',vph);
 			navHeight = $('nav').height();
 			portfolioHeight = $('#portfolio').height();
-			divHeight = $("#portfolio .row").height();
+			divHeight = $("#portfolio .container").height();
 			divMargin = (portfolioHeight / 2) - (divHeight / 2) - (navHeight * 2);
 			var divCss = 'margin-top: ' + divMargin + 'px';
-			document.styleSheets[0].addRule('#portfolio .row',divCss);
-			document.styleSheets[0].insertRule('#portfolio .row {' + divCss + "}",0);
+			document.styleSheets[0].addRule('#portfolio .container',divCss);
+			document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
 		});
 
 		$(window).resize(function(){
@@ -45,11 +45,11 @@
 		    $('#portfolio').css('height',vph);
 			navHeight = $('nav').height();
 			portfolioHeight = $('#portfolio').height();
-			divHeight = $("#portfolio .row").height();
+			divHeight = $("#portfolio .container").height();
 			divMargin = (portfolioHeight / 2) - (divHeight / 2) - (navHeight * 2);
 			var divCss = 'margin-top: ' + divMargin + 'px';
-			document.styleSheets[0].addRule('#portfolio .row',divCss);
-			document.styleSheets[0].insertRule('#portfolio .row {' + divCss + "}",0);
+			document.styleSheets[0].addRule('#portfolio .container',divCss);
+			document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
 		});
 		}
 	</script>
