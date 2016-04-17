@@ -23,14 +23,7 @@
 			
 		$(document).ready(function() {
 		    vph = $(window).height();
-			navHeight = $('nav').height();
-			$('#about').css('height',vph - (navHeight * 2));				
-			aboutHeight = $('#about').height();
-			divHeight = $("#about .container").height();
-			divMargin = (aboutHeight / 2) - (divHeight / 2);
-			var divCss = 'margin-top: ' + divMargin + 'px';
-			document.styleSheets[0].addRule('#about .container',divCss);
-			document.styleSheets[0].insertRule('#about .container {' + divCss + "}",0);
+		    $('#about').css('height',vph);
 			offset = $('.desk').offset().top - $('#about').offset().top;
 			var deskOffset = vph - offset;
 			var deskHeight = 'height: ' + deskOffset + 'px';
@@ -40,14 +33,7 @@
 
 		$(window).resize(function(){
 		    vph = $(window).height();
-			navHeight = $('nav').height();
-			$('#about').css('height',vph - (navHeight * 2));				
-			aboutHeight = $('#about').height();
-			divHeight = $("#about .container").height();
-			divMargin = (aboutHeight / 2) - (divHeight / 2);
-			var divCss = 'margin-top: ' + divMargin + 'px';
-			document.styleSheets[0].addRule('#about .container',divCss);
-			document.styleSheets[0].insertRule('#about .container {' + divCss + "}",0);
+		    $('#about').css('height',vph);
 			offset = $('.desk').offset().top - $('#about').offset().top;
 			var deskOffset = vph - offset;
 			var deskHeight = 'height: ' + deskOffset + 'px';
