@@ -23,7 +23,20 @@
 	        function autoResizeDiv()
 	        {
 	            document.getElementById('about').style.height = window.innerHeight +'px';
-				var offset = document.getElementsByClassName("desk").offsetTop;
+				var element = document.getElementsByClassName("desk");
+				function getPosition(element) {
+				    var xPosition = 0;
+				    var yPosition = 0;
+
+				    while(element) {
+				        xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+				        yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+				        element = element.offsetParent;
+				    }
+
+				    return { x: xPosition, y: yPosition };
+				}
+				var offset = y;
 				var deskHeight = 'height: ' + (window.innerHeight - offset) + 'px';
 				
 				document.styleSheets[0].addRule('.desk::after',deskHeight);
