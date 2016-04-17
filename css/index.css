@@ -183,9 +183,19 @@ body {
 	}
 	#portfolio {
 		min-height: 1400px;
+		width: 100vw;
+		
 	}
-	section#contact{
-		/*min-height: 1150px; */
+	#contact{
+		width: 100vw;
+	}
+	#about{
+		width: 100vw;
+	}
+	
+	header {
+		width: 100vw;
+		
 	}
 }
 
