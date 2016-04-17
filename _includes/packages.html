@@ -34,7 +34,7 @@
 			navHeight = $('nav').height();
 			portfolioHeight = $('#portfolio').height();
 			divHeight = $("#portfolio .container").height();
-			divMargin = (portfolioHeight / 2) - (divHeight / 2) - navHeight;
+			divMargin = (portfolioHeight / 2) - (divHeight / 2);
 			var divCss = 'margin-top: ' + divMargin + 'px';
 			document.styleSheets[0].addRule('#portfolio .container',divCss);
 			document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
@@ -46,7 +46,7 @@
 			navHeight = $('nav').height();
 			portfolioHeight = $('#portfolio').height();
 			divHeight = $("#portfolio .container").height();
-			divMargin = (portfolioHeight / 2) - (divHeight / 2) - navHeight;
+			divMargin = (portfolioHeight / 2) - (divHeight / 2);
 			var divCss = 'margin-top: ' + divMargin + 'px';
 			document.styleSheets[0].addRule('#portfolio .container',divCss);
 			document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
