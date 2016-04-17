@@ -55,11 +55,16 @@
     </section>
 	<script language="javascript">
 	if (screen.width >= 600) {
-	        function autoResizeDiv()
-	        {
-	            document.getElementById('contact').style.height = window.innerHeight +'px';
-	        }
-	        window.onresize = autoResizeDiv;
-	        autoResizeDiv();
+		$(document).ready(function() {
+				    vph = $(window).height();
+				    $('#contact').css('height',vph);
+			
+				});
+
+				$(window).resize(function(){
+				    vph = $(window).height();
+
+				    $('#contact').css('height',vph);
+				});
 		}
 	</script>
