@@ -36,7 +36,7 @@
 
 				    return { x: xPosition, y: yPosition };
 				}
-				var offset = y;
+				var offset = element.y;
 				var deskHeight = 'height: ' + (window.innerHeight - offset) + 'px';
 				
 				document.styleSheets[0].addRule('.desk::after',deskHeight);
