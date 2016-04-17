@@ -23,6 +23,7 @@
 	        function autoResizeDiv()
 	        {
 	            document.getElementById('about').style.height = window.innerHeight +'px';
+	            document.querySelectorAll('.desk :after').style.height = (window.innerHeight - 910) +'px';				
 	        }
 	        window.onresize = autoResizeDiv;
 	        autoResizeDiv();
