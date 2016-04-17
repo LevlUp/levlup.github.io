@@ -21,19 +21,17 @@
 	<script language="javascript">
 	if (screen.width >= 600) {
 			
-		$(document).ready(function(){
-		resizeDiv();
+		$(document).ready(function() {
+		    vph = $(window).height();
+		    $('#about').css('height',vph);
 		});
 
-		window.onresize = function(event) {
-		resizeDiv();
-		}
+		$(window).resize(function(){
+		    vpw = $(window).width();
+		    vph = $(window).height();
 
-		function resizeDiv() {
-		vpw = $(window).width();
-		vph = $(window).height();
-		$(‘#about’).css(‘height’: vph);
-		}
+		    $('#about').css('height',vph);
+		});
 	}
 	</script>
 	
