@@ -121,16 +121,15 @@ img.snes {
 	overflow: hidden;
 }
 
-hr.desk:after{
+hr.desk::after{
     content: url(/img/desk.png);
     display: block;
-	height: 271px;
 	margin: 0 -800px;
 	overflow: hidden;
 }
 
 @media only screen and (max-device-width: 480px) {
-	hr.desk:after{
+	hr.desk::after{
 	    content: url(/img/desk.png);
 	    display: block;
 		height: 271px;
