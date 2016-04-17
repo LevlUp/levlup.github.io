@@ -29,10 +29,8 @@
 	<script language="javascript">
 	if (screen.width >= 600) {
 		$(document).ready(function() {
-		    if (screen.height >= 1400) {
-				vph = $(window).height();
-		    };
-		    $('#portfolio').css('height',vph);
+			vph = $(window).height();
+			$('#portfolio').css('height',vph);
 			navHeight = $('nav').height();
 			portfolioHeight = $('#portfolio').height();
 			divHeight = $("#portfolio .container").height();
@@ -43,10 +41,8 @@
 		});
 
 		$(window).resize(function(){
-		    if (screen.height >= 1400) {
-				vph = $(window).height();
-		    };
-		    $('#portfolio').css('height',vph);
+			vph = $(window).height();
+			$('#portfolio').css('height',vph);
 			navHeight = $('nav').height();
 			portfolioHeight = $('#portfolio').height();
 			divHeight = $("#portfolio .container").height();

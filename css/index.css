@@ -143,9 +143,6 @@ header {
 	min-height: 800px;
 }
 
-#portfolio {
-	min-height: 1400px;
-}
 
 section.success {
     background: ##FFA08F;
@@ -184,7 +181,9 @@ body {
 	.intercom-launcher-button {
 		left: 0;
 	}
-	
+	#portfolio {
+		min-height: 1400px;
+	}
 }
 
 #clouds{
