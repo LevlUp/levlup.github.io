@@ -149,7 +149,7 @@ section.success {
     color: white;
 }
 section#contact{
-	min-height: 900px;
+	min-height: 1200px;
 }
 *{ margin: 0; padding: 0;}
 
@@ -188,6 +188,7 @@ body {
 	}
 	#contact{
 		width: 100vw;
+		
 	}
 	#about{
 		width: 100vw;
