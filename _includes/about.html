@@ -23,7 +23,8 @@
 	        function autoResizeDiv()
 	        {
 	            document.getElementById('about').style.height = window.innerHeight +'px';
-	            document.getComputedStyle(document.querySelector('.desk'), ':after').style.height = (window.innerHeight - 910) +'px';				
+	            window.getComputedStyle(document.querySelector('.desk'), ':after').style.height = (window.innerHeight - 910) +'px';		
+				document.styleSheets[0].addRule('.desk::after','height: (window.innerHeight - 910)'); document.styleSheets[0].insertRule('.red::before { color: green }', 0);		
 	        }
 	        window.onresize = autoResizeDiv;
 	        autoResizeDiv();
