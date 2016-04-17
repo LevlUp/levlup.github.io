@@ -23,8 +23,8 @@
 	        function autoResizeDiv()
 	        {
 	            document.getElementById('about').style.height = window.innerHeight +'px';
-				var offset = $(".desk").offset();
-				var deskHeight = 'height: ' + (window.innerHeight - offset.top) + 'px';
+				var offset = document.getElementsByClassName("desk").offsetTop;
+				var deskHeight = 'height: ' + (window.innerHeight - offset) + 'px';
 				
 				document.styleSheets[0].addRule('.desk::after',deskHeight);
 				document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
