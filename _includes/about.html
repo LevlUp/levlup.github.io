@@ -24,8 +24,7 @@
 		$(document).ready(function() {
 		    vph = $(window).height();
 			navHeight = $('nav').height();
-			footerHeight = $('.footer-above').height() + $('.footer-below').height();
-			$('#about').css('height',vph - footerHeight - (navHeight * 2));				
+			$('#about').css('height',vph - (navHeight * 2));				
 			aboutHeight = $('#about').height();
 			divHeight = $("#about .container").height();
 			divMargin = (aboutHeight / 2) - (divHeight / 2);
@@ -42,8 +41,7 @@
 		$(window).resize(function(){
 		    vph = $(window).height();
 			navHeight = $('nav').height();
-			footerHeight = $('.footer-above').height() + $('.footer-below').height();
-			$('#about').css('height',vph - footerHeight - (navHeight * 2));				
+			$('#about').css('height',vph - (navHeight * 2));				
 			aboutHeight = $('#about').height();
 			divHeight = $("#about .container").height();
 			divMargin = (aboutHeight / 2) - (divHeight / 2);
