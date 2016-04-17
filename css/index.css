@@ -149,8 +149,7 @@ section.success {
     color: white;
 }
 section#contact{
-	z-index:1;
-	min-height: 800 px;
+	min-height: 800px;
 }
 *{ margin: 0; padding: 0;}
 
