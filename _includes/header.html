@@ -19,8 +19,9 @@
 if (screen.width >= 600) {
 	$(document).ready(function() {
 	    vph = $(window).height();
+		navHeight = $('nav').height;
 		balloonHeight = $("#header .row").height();
-		balloonMargin = (vph / 2) - (balloonHeight / 2);
+		balloonMargin = (vph / 2) - (balloonHeight / 2) - navHeight;
 		var balloonCss = 'margin-top: ' + balloonMargin + 'px';
 	    $('#header').css('height',vph);
 		alert(balloonCss);
@@ -32,8 +33,9 @@ if (screen.width >= 600) {
 
 	$(window).resize(function(){
 	    vph = $(window).height();
+		navHeight = $('nav').height;
 		balloonHeight = $("#header .row").height();
-		balloonMargin = (vph / 2) - (balloonHeight / 2);
+		balloonMargin = (vph / 2) - (balloonHeight / 2) - navHeight;
 		var balloonCss = 'margin-top: ' + balloonMargin + 'px';
 	    $('#header').css('height',vph);
 		document.styleSheets[0].addRule('#header .row',balloonCss);
