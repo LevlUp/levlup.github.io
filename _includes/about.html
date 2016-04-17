@@ -25,6 +25,7 @@
 	            document.getElementById('about').style.height = window.innerHeight +'px';
 				var deskHeight = 'height: ' + (window.innerHeight - 910) + 'px';
 				document.styleSheets[0].addRule('.desk::after',deskHeight);
+				document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
 	        }
 	        window.onresize = autoResizeDiv;
 	        autoResizeDiv();
