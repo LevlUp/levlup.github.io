@@ -124,7 +124,6 @@ img.snes {
 hr.desk:after{
     content: url(/img/desk.png);
     display: block;
-    position: center;
 	height: 271px;
 	margin: 0 -800px;
 	overflow: hidden;
@@ -134,7 +133,6 @@ hr.desk:after{
 	hr.desk:after{
 	    content: url(/img/desk.png);
 	    display: block;
-	    position: center;
 		height: 271px;
 		margin: 0 0;
 		overflow: hidden;
