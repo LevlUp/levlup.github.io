@@ -129,31 +129,7 @@ hr.desk::after{
 	overflow: hidden;
 }
 
-@media only screen and (max-device-width: 480px) {
-	hr.desk::after{
-	    content: url(/img/desk.png);
-	    display: block;
-		height: 271px;
-		margin: 0 0;
-		overflow: hidden;
-	}
-	img.iphone {
-		display: none;
-	}
-	img.ezbutton {
-		display: none;
-	}
-	body, nav {
-		width: 100vw;
-	}
-	.modal-content {
-		width: 100vw;
-	}
-	.intercom-launcher-button {
-		left: 0;
-	}
-	
-}
+
 
 #about .row {
 	text-align: center;
@@ -183,6 +159,32 @@ section#contact{
 body {
 	/*To hide the horizontal scroller appearing during the animation*/
 	overflow-x: hidden;
+}
+
+@media only screen and (max-device-width: 480px) {
+	hr.desk::after{
+	    content: url(/img/desk.png);
+	    display: block;
+		height: 271px;
+		margin: 0 0;
+		overflow: hidden;
+	}
+	img.iphone {
+		display: none;
+	}
+	img.ezbutton {
+		display: none;
+	}
+	body, nav {
+		width: 100vw;
+	}
+	.modal-content {
+		width: 100vw;
+	}
+	.intercom-launcher-button {
+		left: 0;
+	}
+	
 }
 
 #clouds{
