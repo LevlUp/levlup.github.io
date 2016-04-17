@@ -14,7 +14,7 @@ Handle Complete Day-to-Day Operations of a Trucking Company
     data-amount="200000"
     data-name="Podio - Trucking"
     data-description="Handle Complete Day-to-Day Operations of a Trucking Company"
-    data-image="/img/128x128.png"
+    data-image="https://levlup.co/img/128x128.png"
     data-locale="auto">
   </script>
 </form>
