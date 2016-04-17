@@ -21,7 +21,7 @@ if (screen.width >= 600) {
 	    vph = $(window).height();
 		balloonHeight = $("#header > row").height();
 		balloonMargin = vph - (balloonHeight / 2);
-		var balloonCss = 'hmargin-top: ' + balloonMargin + 'px';
+		var balloonCss = 'margin-top: ' + balloonMargin + 'px';
 	    $('#header').css('height',vph);
 		alert(balloonCss);
 		document.styleSheets[0].addRule('#header .row',balloonCss);
