@@ -24,7 +24,7 @@
 		$(document).ready(function() {
 		    vph = $(window).height();
 		    $('#about').css('height',vph);
-			offset = $('#desk').offset().top;
+			offset = $('.desk').offset().top;
 			var deskHeight = 'height: ' + (vph - offset) + 'px';
 			document.styleSheets[0].addRule('.desk::after',deskHeight);
 			document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
