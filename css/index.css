@@ -167,6 +167,10 @@ header {
 	min-height: 800px;
 }
 
+#portfolio {
+	min-height: 1400px;
+}
+
 section.success {
     background: ##FFA08F;
     color: white;
