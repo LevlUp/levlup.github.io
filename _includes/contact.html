@@ -57,8 +57,9 @@
 	if (screen.width >= 600) {
 		$(document).ready(function() {
 				vph = $(window).height();
-				$('#contact').css('height',vph);
 				navHeight = $('nav').height();
+				footerHeight = $(.footer-above).height() + $(.footer-below).height();
+				$('#contact').css('height',vph - footerHeight);				
 				contactHeight = $('#contact').height();
 				divHeight = $("#contact .container").height();
 				divMargin = (contactHeight / 2) - (divHeight / 2);
