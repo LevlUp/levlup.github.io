@@ -163,8 +163,8 @@ hr.desk::after{
 header {
     text-align: center;
     background: #81C8E0;
-    color: white
-
+    color: white;
+	min-height: 800px;
 }
 
 section.success {
