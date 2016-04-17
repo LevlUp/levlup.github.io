@@ -20,30 +20,20 @@
     </section>
 	<script language="javascript">
 	if (screen.width >= 600) {
-	        function autoResizeDiv()
-	        {
-	            document.getElementById('about').style.height = window.innerHeight +'px';
-				var element = document.getElementsByClassName("desk");
-				function getPosition(element) {
-				    var xPosition = 0;
-				    var yPosition = 0;
+			
+		$(document).ready(function(){
+		resizeDiv();
+		});
 
-				    while(element) {
-				        xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
-				        yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
-				        element = element.offsetParent;
-				    }
-
-				    return { x: xPosition, y: yPosition };
-				}
-				var offset = element.y;
-				var deskHeight = 'height: ' + (window.innerHeight - offset) + 'px';
-				
-				document.styleSheets[0].addRule('.desk::after',deskHeight);
-				document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
-	        }
-	        window.onresize = autoResizeDiv;
-	        autoResizeDiv();
+		window.onresize = function(event) {
+		resizeDiv();
 		}
+
+		function resizeDiv() {
+		vpw = $(window).width();
+		vph = $(window).height();
+		$(‘#about’).css({‘height’: vph + ‘px’});
+		}
+	}
 	</script>
 	
