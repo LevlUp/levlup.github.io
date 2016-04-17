@@ -23,7 +23,9 @@
 	        function autoResizeDiv()
 	        {
 	            document.getElementById('about').style.height = window.innerHeight +'px';
-				var deskHeight = 'height: ' + (window.innerHeight - 910) + 'px';
+				var offset = $(".desk").offset();
+				var deskHeight = 'height: ' + (window.innerHeight - offset.top) + 'px';
+				
 				document.styleSheets[0].addRule('.desk::after',deskHeight);
 				document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
 	        }
