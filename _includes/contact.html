@@ -59,7 +59,7 @@
 				vph = $(window).height();
 				navHeight = $('nav').height();
 				footerHeight = $('.footer-above').height() + $('.footer-below').height();
-				$('#contact').css('height',vph - footerHeight - navHeight);				
+				$('#contact').css('height',vph - footerHeight - (navHeight * 2));				
 				contactHeight = $('#contact').height();
 				divHeight = $("#contact .container").height();
 				divMargin = (contactHeight / 2) - (divHeight / 2);
@@ -73,7 +73,7 @@
 					vph = $(window).height();
 					navHeight = $('nav').height();
 					footerHeight = $('.footer-above').height() + $('.footer-below').height();
-					$('#contact').css('height',vph - footerHeight - navHeight);				
+					$('#contact').css('height',vph - footerHeight - (navHeight * 2));				
 					contactHeight = $('#contact').height();
 					divHeight = $("#contact .container").height();
 					divMargin = (contactHeight / 2) - (divHeight / 2);
