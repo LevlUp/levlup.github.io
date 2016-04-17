@@ -150,6 +150,7 @@ section.success {
 }
 section#contact{
 	z-index:1;
+	min-height: 800 px;
 }
 *{ margin: 0; padding: 0;}
 
