@@ -23,7 +23,15 @@
 			
 		$(document).ready(function() {
 		    vph = $(window).height();
-		    $('#about').css('height',vph);
+			navHeight = $('nav').height();
+			footerHeight = $('.footer-above').height() + $('.footer-below').height();
+			$('#about').css('height',vph - footerHeight - (navHeight * 2));				
+			aboutHeight = $('#about').height();
+			divHeight = $("#about .container").height();
+			divMargin = (aboutHeight / 2) - (divHeight / 2);
+			var divCss = 'margin-top: ' + divMargin + 'px';
+			document.styleSheets[0].addRule('#about .container',divCss);
+			document.styleSheets[0].insertRule('#about .container {' + divCss + "}",0);
 			offset = $('.desk').offset().top - $('#about').offset().top;
 			var deskOffset = vph - offset;
 			var deskHeight = 'height: ' + deskOffset + 'px';
@@ -32,10 +40,16 @@
 		});
 
 		$(window).resize(function(){
-		    vpw = $(window).width();
 		    vph = $(window).height();
-
-		    $('#about').css('height',vph);
+			navHeight = $('nav').height();
+			footerHeight = $('.footer-above').height() + $('.footer-below').height();
+			$('#about').css('height',vph - footerHeight - (navHeight * 2));				
+			aboutHeight = $('#about').height();
+			divHeight = $("#about .container").height();
+			divMargin = (aboutHeight / 2) - (divHeight / 2);
+			var divCss = 'margin-top: ' + divMargin + 'px';
+			document.styleSheets[0].addRule('#about .container',divCss);
+			document.styleSheets[0].insertRule('#about .container {' + divCss + "}",0);
 			offset = $('.desk').offset().top - $('#about').offset().top;
 			var deskOffset = vph - offset;
 			var deskHeight = 'height: ' + deskOffset + 'px';
