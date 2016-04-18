@@ -14,7 +14,7 @@ Handle Complete Day-to-Day Operations of a Manufacturing Company
     data-amount="200000"
     data-name="Podio - Manufacturing"
     data-description="Handle Complete Day-to-Day Operations of a Manufacturing Company"
-    data-image="/img/128x128.png"
+    data-image="https://s3.amazonaws.com/levlup.co/128x128.png"
     data-locale="auto">
   </script>
 </form>
