@@ -329,3 +329,7 @@ body {
 	0% {margin-left: 1000px;}
 	100% {margin-left: -1000px;}
 }
+
+nav button {
+	margin: 17.5px 0;
+}
