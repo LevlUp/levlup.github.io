@@ -30,7 +30,7 @@
                     <a href="#">|</a>
                 </li>
                 <li>
-                    <a href="#">(231) 222-4939</a>
+                    <span id="clickToShow">(231) 222-4939</span>
                 </li>
 				
             </ul>
@@ -39,3 +39,11 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+<script>
+var shortNumber = $("#clickToShow").text().substring(0,  $("#clickToShow").text().length - 8);
+$("#clickToShow").hide().after('<button type="button" class="btn btn-warning" id="clickToShowButton">' + shortNumber + '... (click to show number)</button>');
+$("#clickToShowButton").click(function() {
+    $("#clickToShow").show();
+    $("#clickToShowButton").hide();
+});
+</script>
