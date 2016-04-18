@@ -5,6 +5,10 @@ html,body
 	overflow-x: hidden; 
 }
 
+.scroll-top {
+	left: 2%;
+}
+
 hr.levlup-header,
 hr.levlup-folio,
 hr.levlup-about,
