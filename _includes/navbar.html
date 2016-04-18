@@ -41,7 +41,7 @@
 </nav>
 <script>
 var shortNumber = $("#clickToShow").text().substring(0,  $("#clickToShow").text().length - 8);
-$("#clickToShow").hide().after('<button type="button" class="btn btn-warning btn-sm" id="clickToShowButton">' + shortNumber + '... (click to reveal phone)</button>');
+$("#clickToShow").hide().after('<button type="button" class="btn btn-warning btn-xs" id="clickToShowButton">' + shortNumber + '... (click to reveal phone)</button>');
 $("#clickToShowButton").click(function() {
     $("#clickToShow").show();
     $("#clickToShowButton").hide();
