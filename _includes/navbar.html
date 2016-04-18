@@ -31,7 +31,7 @@
                 </li>
 				<li class="page-scroll">
 					<a href="tel:+12312224939" id="clickToShow">(231) 222-4939</a>
-					<button type="button" class="btn btn-warning btn-xs" ><i class="glyphicon glyphicon-user"></i> Existing Client</button>
+					<button type="button" class="login btn btn-warning btn-xs" ><i class="glyphicon glyphicon-user"></i> Existing Client</button>
 				</li>
             </ul>
         </div>
@@ -45,4 +45,20 @@ $("#clickToShowButton").click(function() {
     $("#clickToShow").show();
     $("#clickToShowButton").hide();
 });
+$('button.login').click(function(e) {
+swal.withForm({
+    title: 'Client Login',
+    showCancelButton: true,
+    confirmButtonColor: '#DD6B55',
+    confirmButtonText: 'Login',
+    closeOnConfirm: true,
+    formFields: [
+        { id: 'username', placeholder:'User Name' },
+        { id: 'password', placeholder:'Password' }
+    ]
+}, function(isConfirm) {
+    // do whatever you want with the form data
+    console.log(this.swalForm) // { name: 'user name', nickname: 'what the user sends' }
+})
+}
 </script>
