@@ -53,34 +53,3 @@
             </div>
         </div>
     </section>
-	<script language="javascript">
-if (screen.width >= 600) {	
-		$(document).ready(function() {
-				vph = $(window).height();
-				navHeight = $('nav').height();
-				footerHeight = $('.footer-above').height() + $('.footer-below').height();
-				$('#contact').css('height',vph - footerHeight - (navHeight * 2));				
-				contactHeight = $('#contact').height();
-				divHeight = $("#contact .container").height();
-				divMargin = (contactHeight / 2) - (divHeight / 2);
-				var divCss = 'margin-top: ' + divMargin + 'px';
-				document.styleSheets[0].addRule('#contact .container',divCss);
-				document.styleSheets[0].insertRule('#contact .container {' + divCss + "}",0);
-			
-		});
-
-				$(window).resize(function(){
-					vph = $(window).height();
-					navHeight = $('nav').height();
-					footerHeight = $('.footer-above').height() + $('.footer-below').height();
-					$('#contact').css('height',vph - footerHeight - (navHeight * 2));				
-					contactHeight = $('#contact').height();
-					divHeight = $("#contact .container").height();
-					divMargin = (contactHeight / 2) - (divHeight / 2);
-					var divCss = 'margin-top: ' + divMargin + 'px';
-					document.styleSheets[0].addRule('#contact .container',divCss);
-					document.styleSheets[0].insertRule('#contact .container {' + divCss + "}",0);
-		
-				});
-			}
-	</script>

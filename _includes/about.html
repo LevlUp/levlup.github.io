@@ -18,28 +18,3 @@
             </div>
         </div>
     </section>
-	<script language="javascript">
-	if (screen.width >= 600) {
-			
-		$(document).ready(function() {
-		    vph = $(window).height();
-		    $('#about').css('height',vph);
-			offset = $('.desk').offset().top - $('#about').offset().top;
-			var deskOffset = vph - offset;
-			var deskHeight = 'height: ' + deskOffset + 'px';
-			document.styleSheets[0].addRule('.desk::after',deskHeight);
-			document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
-		});
-
-		$(window).resize(function(){
-		    vph = $(window).height();
-		    $('#about').css('height',vph);
-			offset = $('.desk').offset().top - $('#about').offset().top;
-			var deskOffset = vph - offset;
-			var deskHeight = 'height: ' + deskOffset + 'px';
-			document.styleSheets[0].addRule('.desk::after',deskHeight);
-			document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
-		});
-	}
-	</script>
-	

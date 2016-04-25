@@ -26,32 +26,3 @@
             </div>
         </div>
     </section>
-	<script language="javascript">
-	if (screen.width >= 600) {
-		$(document).ready(function() {
-			vph = $(window).height();
-			$('#portfolio').css('height',vph);
-			navHeight = $('nav').height();
-			portfolioHeight = $('#portfolio').height();
-			divHeight = $("#portfolio .container").height();
-			divMargin = (portfolioHeight / 2) - (divHeight / 2);
-			var divCss = 'margin-top: ' + divMargin + 'px';
-			document.styleSheets[0].addRule('#portfolio .container',divCss);
-			document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
-		});
-
-		$(window).resize(function(){
-			vph = $(window).height();
-			$('#portfolio').css('height',vph);
-			navHeight = $('nav').height();
-			portfolioHeight = $('#portfolio').height();
-			divHeight = $("#portfolio .container").height();
-			divMargin = (portfolioHeight / 2) - (divHeight / 2);
-			var divCss = 'margin-top: ' + divMargin + 'px';
-			document.styleSheets[0].addRule('#portfolio .container',divCss);
-			document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
-		
-		});
-		}
-	</script>
-	

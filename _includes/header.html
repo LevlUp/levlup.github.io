@@ -15,34 +15,4 @@
         </div>
     </div>
 </header>
-<script language="javascript">
-if (screen.width >= 600) {
-	$(document).ready(function() {
-	    vph = $(window).height();
-	    $('#header').css('height',vph);
-		navHeight = $('nav').height();
-		headerHeight = $('#header').height();
-		balloonHeight = $("#header .row").height();
-		balloonMargin = (headerHeight / 2) - (balloonHeight / 2) - (navHeight * 2);
-		var balloonCss = 'margin-top: ' + balloonMargin + 'px';
-		document.styleSheets[0].addRule('#header .row',balloonCss);
-		document.styleSheets[0].insertRule('#header .row {' + balloonCss + "}",0);
-		$("#header > .row").css('margin-top',balloonMargin);
-		
-	});
 
-	$(window).resize(function(){
-	    vph = $(window).height();
-	    $('#header').css('height',vph);
-		navHeight = $('nav').height();
-		headerHeight = $('#header').height();
-		balloonHeight = $("#header .row").height();
-		balloonMargin = (headerHeight / 2) - (balloonHeight / 2) - (navHeight * 2);
-		var balloonCss = 'margin-top: ' + balloonMargin + 'px';
-		document.styleSheets[0].addRule('#header .row',balloonCss);
-		document.styleSheets[0].insertRule('#header .row {' + balloonCss + "}",0);
-		$("#header > .row").css('margin-top',balloonMargin);
-	});
-}
-
-</script>

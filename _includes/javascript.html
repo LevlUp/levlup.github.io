@@ -11,3 +11,119 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/freelancer.js"></script>
+<script>
+	window.intercomSettings = {
+		app_id: "py3uwe1q"
+	};
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/py3uwe1q';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+<!--  SWAL Files -->
+
+<script src="/javascripts/sweetalert.js"></script>
+<script src="/javascripts/swal-forms.js"></script>
+<script language="javascript">
+if (screen.width >= 600) {
+	$(document).ready(function() {
+	    vph = $(window).height();
+	    $('#header').css('height',vph);
+		navHeight = $('nav').height();
+		headerHeight = $('#header').height();
+		balloonHeight = $("#header .row").height();
+		balloonMargin = (headerHeight / 2) - (balloonHeight / 2) - (navHeight * 2);
+		var balloonCss = 'margin-top: ' + balloonMargin + 'px';
+		document.styleSheets[0].addRule('#header .row',balloonCss);
+		document.styleSheets[0].insertRule('#header .row {' + balloonCss + "}",0);
+		$("#header > .row").css('margin-top',balloonMargin);
+		
+	});
+
+	$(window).resize(function(){
+	    vph = $(window).height();
+	    $('#header').css('height',vph);
+		navHeight = $('nav').height();
+		headerHeight = $('#header').height();
+		balloonHeight = $("#header .row").height();
+		balloonMargin = (headerHeight / 2) - (balloonHeight / 2) - (navHeight * 2);
+		var balloonCss = 'margin-top: ' + balloonMargin + 'px';
+		document.styleSheets[0].addRule('#header .row',balloonCss);
+		document.styleSheets[0].insertRule('#header .row {' + balloonCss + "}",0);
+		$("#header > .row").css('margin-top',balloonMargin);
+	});
+	
+	$(document).ready(function() {
+	    vph = $(window).height();
+	    $('#about').css('height',vph);
+		offset = $('.desk').offset().top - $('#about').offset().top;
+		var deskOffset = vph - offset;
+		var deskHeight = 'height: ' + deskOffset + 'px';
+		document.styleSheets[0].addRule('.desk::after',deskHeight);
+		document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
+	});
+
+	$(window).resize(function(){
+	    vph = $(window).height();
+	    $('#about').css('height',vph);
+		offset = $('.desk').offset().top - $('#about').offset().top;
+		var deskOffset = vph - offset;
+		var deskHeight = 'height: ' + deskOffset + 'px';
+		document.styleSheets[0].addRule('.desk::after',deskHeight);
+		document.styleSheets[0].insertRule('.desk::after {' + deskHeight + "}",0);
+	});
+	
+	$(document).ready(function() {
+			vph = $(window).height();
+			navHeight = $('nav').height();
+			footerHeight = $('.footer-above').height() + $('.footer-below').height();
+			$('#contact').css('height',vph - footerHeight - (navHeight * 2));				
+			contactHeight = $('#contact').height();
+			divHeight = $("#contact .container").height();
+			divMargin = (contactHeight / 2) - (divHeight / 2);
+			var divCss = 'margin-top: ' + divMargin + 'px';
+			document.styleSheets[0].addRule('#contact .container',divCss);
+			document.styleSheets[0].insertRule('#contact .container {' + divCss + "}",0);
+		
+	});
+
+			$(window).resize(function(){
+				vph = $(window).height();
+				navHeight = $('nav').height();
+				footerHeight = $('.footer-above').height() + $('.footer-below').height();
+				$('#contact').css('height',vph - footerHeight - (navHeight * 2));				
+				contactHeight = $('#contact').height();
+				divHeight = $("#contact .container").height();
+				divMargin = (contactHeight / 2) - (divHeight / 2);
+				var divCss = 'margin-top: ' + divMargin + 'px';
+				document.styleSheets[0].addRule('#contact .container',divCss);
+				document.styleSheets[0].insertRule('#contact .container {' + divCss + "}",0);
+	
+			});	
+	
+			$(document).ready(function() {
+				vph = $(window).height();
+				$('#portfolio').css('height',vph);
+				navHeight = $('nav').height();
+				portfolioHeight = $('#portfolio').height();
+				divHeight = $("#portfolio .container").height();
+				divMargin = (portfolioHeight / 2) - (divHeight / 2);
+				var divCss = 'margin-top: ' + divMargin + 'px';
+				document.styleSheets[0].addRule('#portfolio .container',divCss);
+				document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
+			});
+
+			$(window).resize(function(){
+				vph = $(window).height();
+				$('#portfolio').css('height',vph);
+				navHeight = $('nav').height();
+				portfolioHeight = $('#portfolio').height();
+				divHeight = $("#portfolio .container").height();
+				divMargin = (portfolioHeight / 2) - (divHeight / 2);
+				var divCss = 'margin-top: ' + divMargin + 'px';
+				document.styleSheets[0].addRule('#portfolio .container',divCss);
+				document.styleSheets[0].insertRule('#portfolio .container {' + divCss + "}",0);
+		
+			});
+	
+	
+}
+
+</script>
