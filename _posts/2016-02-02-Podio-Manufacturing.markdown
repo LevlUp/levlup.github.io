@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Manufacturing Company"
+title:  "Manufacturing"
 date:   2016-04-08 15:08:10 -0500
 img: img/packages/Podio - Manufacturing.png
 modalID: modalManufacturing
