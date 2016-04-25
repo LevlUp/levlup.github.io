@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Podio - eCommerce"
+title:  "eCommerce"
 date:   2016-04-15 15:08:10 -0500
 img: img/packages/Podio - eCommerce.png
 modalID: modaleCommerce

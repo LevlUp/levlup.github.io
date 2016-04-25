@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Podio - Trucking"
+title:  "Trucking"
 date:   2016-01-01 15:08:10 -0500
 img: img/packages/Podio - Trucking.png
 modalID: modalTrucking

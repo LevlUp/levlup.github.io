@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Podio - Service"
+title:  "Service"
 date:   2016-04-08 15:08:10 -0500
 img: img/packages/Podio - Service.png
 modalID: modalService
