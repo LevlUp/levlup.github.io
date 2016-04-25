@@ -342,3 +342,19 @@ nav button {
 #clickToShow {
 	padding: 20.5px 15px;
 }
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(44, 62, 80, 1);
+    background-image: url("http://loading.io/loader/?use=eyJzaXplIjoxMDAsInNwZWVkIjoiMSIsImNiayI6IiMyYzNlNTAiLCJjMSI6IiNmOGEyNDkiLCJjMiI6IiMyZjk4YmIiLCJ0eXBlIjoiZ2VhcnMifQ==");
+    background-repeat: no-repeat;
+    background-position: center;
+}
