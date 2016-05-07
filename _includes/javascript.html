@@ -133,20 +133,5 @@ $("#clickToShowButton").click(function() {
     $("#clickToShow").show();
     $("#clickToShowButton").hide();
 });
-$('button.login').click(function(e) {
-swal.withForm({
-    title: 'Client Login',
-    showCancelButton: true,
-    confirmButtonColor: '#DD6B55',
-    confirmButtonText: 'Login',
-    closeOnConfirm: true,
-    formFields: [
-        { id: 'username', placeholder:'User Name' },
-        { id: 'password', placeholder:'Password', type: 'password' }
-    ]
-}, function(isConfirm) {
-    // do whatever you want with the form data
-    console.log(this.swalForm) // { name: 'user name', nickname: 'what the user sends' }
-})
-});
+
 </script>
