@@ -339,7 +339,7 @@ nav button {
 	margin: 17.5px 15px;
 }
 
-button a {
+a.client {
    text-decoration: none;
 
 }
